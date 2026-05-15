@@ -1,0 +1,12 @@
+/* /index.html 200
+
+# Redirect common misspellings
+/startup-advisor  /startup-advisor   301
+/turnkeystartup  /turkeystartups    301
+/packages        /packages           301
+/slingshot       /slingshots        301
+
+# Redirect old paths
+/services/*      /                   301
+/about           /                   301
+/contact         /startup-advisor    301

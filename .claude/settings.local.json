@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "Bash(echo \"EXIT_CODE: $?\")",
+      "Bash(curl -s http://localhost:5173)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git remote *)",
+      "Bash(git config *)",
+      "Bash(security find-internet-password *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(ls /Applications | grep -i github; ls ~/Applications 2>/dev/null | grep -i github)",
+      "Bash(ls ~/.ssh/ 2>/dev/null || echo \"No .ssh directory\")",
+      "Bash(brew --version)",
+      "Bash(brew install *)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx tsc *)",
+      "Bash(git -C /Users/adamanderson/Desktop/AppFolders/StartupLabs remote -v)",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git add *)"
+    ]
+  }
+}
